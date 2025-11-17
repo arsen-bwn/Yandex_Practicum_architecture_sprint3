@@ -1,0 +1,41 @@
+@startuml C4_Container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Диаграмма контейнеров для передачи ставок в кол-центры в банке "Стандарт"
+
+Person(back_manager, "Менеджер бэк-офиса")
+Person(call_manager_bank, "Менеджер кол-центра банка")
+Person(call_manager_partner, "Менеджер партнёрского кол-центра")
+
+System_Boundary(abs_boundary, "АБС") {
+    Container(abs_logic, "Бизнес-логика", "PL-SQL процедуры", "Расчет и генерация файлов ставок")
+    ContainerDb(abs_db, "База данных", "Oracle", "Хранение ставок (мигрировано из XLS)")
+    Container(abs_file_gen, "Генератор файлов", "Новый скрипт", "Ежедневная генерация CSV/Excel. миграция -> генерация -> передача")
+}
+
+System_Boundary(call_center_bank_boundary, "Система кол-центра банка") {
+    Container(cc_frontend, "Фронтенд", "React.js", "Отображение ставок для менеджеров")
+    Container(cc_backend, "Бэкенд", "Java Spring Boot", "Прием и обработка данных ставок")
+    ContainerDb(cc_db, "База данных", "PostgreSQL", "Хранение полученных ставок")
+}
+
+Container(esb, "Шина данных Kafka", "Асинхронная интеграция", "Асинхронная интеграция")
+
+System_Ext(partner_sys, "Система партнёрского кол-центра", "Внешняя система - Импорт файлов")
+
+Rel(back_manager, abs_logic, "Обновляет ставки через клиент")
+Rel(abs_logic, abs_db, "Сохраняет/Читает")
+Rel(abs_logic, abs_file_gen, "Запускает генерацию")
+Rel(abs_file_gen, cc_backend, "Передает данные (интеграция/Java-расширения)")
+Rel(cc_backend, cc_db, "Сохраняет")
+Rel(call_manager_bank, cc_frontend, "Просматривает ставки")
+
+Rel(esb, abs_logic, "Обмен данными / файлами ставок")
+Rel(esb, cc_backend, "Обмен данными / файлами ставок")
+
+
+Rel(abs_file_gen, partner_sys, "Загружает файлы (SFTP)")
+Rel(call_manager_partner, partner_sys, "Просматривает импортированные ставки")
+
+
+@enduml

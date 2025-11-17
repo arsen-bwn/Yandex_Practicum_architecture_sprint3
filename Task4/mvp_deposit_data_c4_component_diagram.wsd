@@ -1,0 +1,42 @@
+@startuml C4_Component
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Диаграмма компонентов для передачи ставок в кол-центры в банке "Стандарт"
+
+Container_Boundary(abs_boundary, "АБС") {
+    Component(abs_rate_storage, "Хранение ставок", "Oracle БД таблица", "Мигрированные данные из XLS")
+    Component(abs_rate_calc, "Расчет ставок", "PL-SQL процедура", "Ежедневный расчет на основе рисков")
+    Component(abs_file_generator, "Генератор файлов", "PL-SQL скрипт + cron", "Создает CSV/Excel файлы ставок")
+    Component(abs_integration, "Интеграционный модуль", "Java-расширение", "Публикация в Kafka для внутренней интеграции")
+}
+
+Container_Boundary(call_center_bank_boundary, "Система кол-центра банка") {
+    Component(cc_rate_receiver, "Приемник ставок", "Java Spring Boot эндпоинт", "Подписка на Kafka и обработка")
+    Component(cc_rate_db, "Хранение ставок", "PostgreSQL таблица", "Локальное хранение для быстрого доступа")
+    Component(cc_rate_display, "Отображение ставок", "React.js компонент", "UI для менеджеров")
+}
+
+Component(esb, "Kafka", "Очередь сообщений", "Асинхронная передача данных ставок внутри банка")
+
+System_Ext(sftp_server, "SFTP-сервер Банка", "", "Для загрузки файлов партнеру")
+System_Ext(partner_rate_importer, "Импортер ставок", "Внешняя система партнера", "Скачивает и импортирует файлы")
+
+Rel(abs_rate_calc, abs_rate_storage, "Читает/Обновляет")
+Rel(abs_rate_calc, abs_file_generator, "Запускает генерацию")
+Rel(abs_file_generator, abs_integration, "Передает данные для публикации")
+
+Rel(abs_integration, esb, "Публикует сообщение с данными ставок")
+Rel(esb, cc_rate_receiver, "Подписка и получение")
+Rel(cc_rate_receiver, cc_rate_db, "Сохраняет")
+Rel(cc_rate_display, cc_rate_db, "Читает для отображения")
+
+Rel(abs_file_generator, sftp_server, "Загружает файлы (SFTP)")
+Rel(sftp_server, partner_rate_importer, "Скачивает файлы")
+
+
+
+note bottom of esb
+Существующая в системе очередь для асинхронной внутренней передачи. Т.к. это вторая итерация изменений после заявок на депозиты
+end note
+
+@enduml

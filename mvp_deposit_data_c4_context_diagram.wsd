@@ -1,0 +1,27 @@
+@startuml C4_Context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title Диаграмма контекста для передачи ставок в кол-центры в банке "Стандарт"
+
+Person(back_manager, "Менеджер бэк-офиса", "Обновляет ставки в АБС")
+Person(call_manager_bank, "Менеджер кол-центра банка", "Просматривает ставки для консультаций")
+Person(call_manager_partner, "Менеджер партнёрского кол-центра", "Просматривает ставки для консультаций")
+Person(client, "Клиент", "Звонит для консультации по ставкам")
+
+System_Boundary(bank_boundary, "Системы банка 'Стандарт'") {
+    System(abs, "АБС", "Delphi/Oracle - Хранит и генерирует ставки. Генерация файлов ежедневно; миграция из XLS.")
+    System(call_center_sys_bank, "Система кол-центра банка", "React.js/Java Spring Boot/PostgreSQL - Отображает ставки")
+}
+
+System_Ext(partner_sys, "Система партнёрского кол-центра", "Внешняя система - Импортирует файлы ставок")
+
+Rel(back_manager, abs, "Обновляет ставки")
+Rel(abs, call_center_sys_bank, "Передает данные ставок (интеграция)")
+Rel(call_manager_bank, call_center_sys_bank, "Просматривает ставки")
+Rel(call_manager_bank, client, "Консультирует по телефону")
+
+Rel(abs, partner_sys, "Передает файлы ставок (SFTP)")
+Rel(call_manager_partner, partner_sys, "Просматривает ставки")
+Rel(call_manager_partner, client, "Консультирует по телефону (при перегрузке)")
+
+@enduml
