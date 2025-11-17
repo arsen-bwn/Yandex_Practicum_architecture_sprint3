@@ -1,0 +1,56 @@
+@startuml C4_Container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Диаграмма контейнеров для MVP подачи заявок на депозиты в банке "Стандарт"
+
+Person(client, "Клиент")
+Person(call_manager, "Менеджер кол-центра")
+Person(back_manager, "Менеджер бэк-офиса")
+
+System_Boundary(internet_bank_system, "") {
+
+
+System_Boundary(internet_bank_boundary, "Интернет-банк") {
+    Container(ib_frontend, "Фронтенд", "React.js", "Интерфейс для просмотра депозитов и подачи заявок")
+    Container(ib_backend, "Бэкенд-монолит", "ASP.NET MVC 4.5 / .NET Framework 4.5", "Основная логика, интегрированная с БД АБС")
+    Container(ib_microservice, "Микросервис депозитов", "Java Spring Boot (новый)", "Обрабатывает заявки на депозиты, персонализацию")
+    ContainerDb(ib_db, "База данных", "MS SQL", "Хранит сессии пользователей и временные данные")
+}
+
+System_Boundary(abs_boundary, "АБС") {
+    Container(abs_client, "Десктопный клиент", "Delphi", "Интерфейс для менеджеров бэк-офиса")
+    Container(abs_logic, "Бизнес-логика", "PL-SQL процедуры", "Расчет ставок, обработка заявок")
+    ContainerDb(abs_db, "База данных", "Oracle", "Основные банковские данные, ставки (мигрировано из Excel)")
+}
+
+Container(esb, "Шина данных Kafka", "Асинхронная интеграция", "Асинхронная интеграция")
+}
+
+System(website, "Сайт", "PHP/React.js - Подача заявок для новых клиентов")
+System(call_center_sys, "Система кол-центра", "React.js/Java Spring Boot/PostgreSQL - Управление заявками")
+System(sms_gateway, "СМС-шлюз", "Шлюз, поддерживаемый IT банка")
+
+Rel(client, ib_frontend, "Взаимодействует через браузер (HTTPS)")
+Rel(ib_frontend, ib_backend, "Вызовы API")
+Rel(ib_backend, ib_microservice, "Делегирует логику депозитов (внутренняя)")
+Rel(ib_microservice, ib_db, "Чтение/Запись")
+
+Rel(ib_microservice, esb, "Асинхронная интеграция")
+Rel(abs_logic, esb, "Асинхронная интеграция ")
+
+
+Rel(client, website, "Подает заявку (HTTPS)")
+Rel(website, call_center_sys, "Отправляет данные (защищенный API)")
+
+Rel(call_manager, call_center_sys, "Использует веб-интерфейс (React.js)")
+
+Rel(back_manager, abs_client, "Использует десктопное приложение")
+Rel(abs_client, abs_logic, "Вызывает процедуры")
+Rel(abs_logic, abs_db, "Запросы/Обновления")
+
+Rel(abs_logic, sms_gateway, "Запускает уведомления через интеграцию")
+Rel(sms_gateway, client, "Отправляет СМС")
+
+
+
+@enduml

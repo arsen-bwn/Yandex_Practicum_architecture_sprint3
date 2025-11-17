@@ -1,0 +1,477 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="29.0.3" pages="2">
+  <diagram name="Карта текущего IT ландшафта" id="bd83a815-5ea8-2e97-e5ec-87c9f400f2fa">
+    <mxGraphModel dx="1426" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="1516e18e63f93b96-6" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=3;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="1415" y="800" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-88" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="1310" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-89" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry width="1310" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-90" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-weight: 600;&quot;&gt;Подразделение&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-89">
+          <mxGeometry width="200" height="95" as="geometry">
+            <mxRectangle width="200" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-91" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Продажи в сети отделений&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-89">
+          <mxGeometry x="200" width="174" height="95" as="geometry">
+            <mxRectangle width="174" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-92" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(51, 51, 51); white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Продажи через кол-центр&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-89">
+          <mxGeometry x="374" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-93" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(51, 51, 51); white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Digital-онбординг клиентов&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-89">
+          <mxGeometry x="562" width="186" height="95" as="geometry">
+            <mxRectangle width="186" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-94" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(51, 51, 51); white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Обслуживание депозитных продуктов&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-89">
+          <mxGeometry x="748" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-95" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Обслуживание кредитных продуктов&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-89">
+          <mxGeometry x="936" width="186" height="95" as="geometry">
+            <mxRectangle width="186" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-96" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Управление договорами&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-89">
+          <mxGeometry x="1122" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-97" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry y="95" width="1310" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-98" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Управление обслуживанием в сети отделений&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-97">
+          <mxGeometry width="200" height="93" as="geometry">
+            <mxRectangle width="200" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-99" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;АБС, Manual (Email)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-97">
+          <mxGeometry x="200" width="174" height="93" as="geometry">
+            <mxRectangle width="174" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-100" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-97">
+          <mxGeometry x="374" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-101" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-97">
+          <mxGeometry x="562" width="186" height="93" as="geometry">
+            <mxRectangle width="186" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-102" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;АБС, Manual (Email, Excel)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-97">
+          <mxGeometry x="748" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-103" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;АБС, Manual (Email)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-97">
+          <mxGeometry x="936" width="186" height="93" as="geometry">
+            <mxRectangle width="186" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-104" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;АБС&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-97">
+          <mxGeometry x="1122" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry y="188" width="1310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-106" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Кол-центр&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-105">
+          <mxGeometry width="200" height="94" as="geometry">
+            <mxRectangle width="200" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-107" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-105">
+          <mxGeometry x="200" width="174" height="94" as="geometry">
+            <mxRectangle width="174" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-108" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;Система кол-центра&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-105">
+          <mxGeometry x="374" width="188" height="94" as="geometry">
+            <mxRectangle width="188" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-109" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-105">
+          <mxGeometry x="562" width="186" height="94" as="geometry">
+            <mxRectangle width="186" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-110" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;Система кол-центра, АБС&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-105">
+          <mxGeometry x="748" width="188" height="94" as="geometry">
+            <mxRectangle width="188" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-111" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;Система кол-центра, АБС&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-105">
+          <mxGeometry x="936" width="186" height="94" as="geometry">
+            <mxRectangle width="186" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-112" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;Система кол-центра&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-105">
+          <mxGeometry x="1122" width="188" height="94" as="geometry">
+            <mxRectangle width="188" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-113" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry y="282" width="1310" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-114" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Партнёрский кол-центр&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;fontStyle=1;labelBackgroundColor=default;fillStyle=auto;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-113">
+          <mxGeometry width="200" height="93" as="geometry">
+            <mxRectangle width="200" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-115" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-113">
+          <mxGeometry x="200" width="174" height="93" as="geometry">
+            <mxRectangle width="174" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-116" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;Система партнёрского кол-центра&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-113">
+          <mxGeometry x="374" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-117" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-113">
+          <mxGeometry x="562" width="186" height="93" as="geometry">
+            <mxRectangle width="186" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-118" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(254, 255, 255); text-decoration: none; display: inline !important; float: none;&quot;&gt;Система партнёрского кол-центра&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-113">
+          <mxGeometry x="748" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-119" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;Система партнёрского кол-центра&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-113">
+          <mxGeometry x="936" width="186" height="93" as="geometry">
+            <mxRectangle width="186" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-120" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(254, 255, 255); text-decoration: none; display: inline !important; float: none;&quot;&gt;Система партнёрского кол-центра&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-113">
+          <mxGeometry x="1122" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-165" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry y="375" width="1310" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-166" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start;&quot;&gt;Управление IT&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-165">
+          <mxGeometry width="200" height="93" as="geometry">
+            <mxRectangle width="200" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-167" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;АБС, Интернет-банк&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-165">
+          <mxGeometry x="200" width="174" height="93" as="geometry">
+            <mxRectangle width="174" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-168" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;Система кол-центра&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-165">
+          <mxGeometry x="374" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-169" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(248, 249, 249);&quot;&gt;Интернет-банк, Сайт&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-165">
+          <mxGeometry x="562" width="186" height="93" as="geometry">
+            <mxRectangle width="186" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-170" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;АБС&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-165">
+          <mxGeometry x="748" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-171" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;АБС&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-165">
+          <mxGeometry x="936" width="186" height="93" as="geometry">
+            <mxRectangle width="186" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-172" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 249); text-decoration: none; display: inline !important; float: none;&quot;&gt;АБС, СМС-шлюз&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-165">
+          <mxGeometry x="1122" width="188" height="93" as="geometry">
+            <mxRectangle width="188" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-129" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry y="468" width="1310" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-130" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Управление обслуживанием депозитных продуктов&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-129">
+          <mxGeometry width="200" height="92" as="geometry">
+            <mxRectangle width="200" height="92" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-131" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-129">
+          <mxGeometry x="200" width="174" height="92" as="geometry">
+            <mxRectangle width="174" height="92" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-132" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-129">
+          <mxGeometry x="374" width="188" height="92" as="geometry">
+            <mxRectangle width="188" height="92" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-133" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-129">
+          <mxGeometry x="562" width="186" height="92" as="geometry">
+            <mxRectangle width="186" height="92" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-134" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(51, 51, 51); white-space: normal; background-color: rgb(248, 249, 249); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;АБС,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;Manual (Excel, Email)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-129">
+          <mxGeometry x="748" width="188" height="92" as="geometry">
+            <mxRectangle width="188" height="92" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-135" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;Manual (Email)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-129">
+          <mxGeometry x="936" width="186" height="92" as="geometry">
+            <mxRectangle width="186" height="92" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-136" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(51, 51, 51); white-space: normal; background-color: rgb(248, 249, 249); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;АБС&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-129">
+          <mxGeometry x="1122" width="188" height="92" as="geometry">
+            <mxRectangle width="188" height="92" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-137" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry y="560" width="1310" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-138" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Управление обслуживанием кредитных продуктов&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-137">
+          <mxGeometry width="200" height="95" as="geometry">
+            <mxRectangle width="200" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-139" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-137">
+          <mxGeometry x="200" width="174" height="95" as="geometry">
+            <mxRectangle width="174" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-140" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-137">
+          <mxGeometry x="374" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-141" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-137">
+          <mxGeometry x="562" width="186" height="95" as="geometry">
+            <mxRectangle width="186" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-142" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(248, 249, 249);&quot;&gt;Manual (Email, Excel)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-137">
+          <mxGeometry x="748" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-143" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(248, 249, 249);&quot;&gt;АБС, Manual (Excel, Email)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-137">
+          <mxGeometry x="936" width="186" height="95" as="geometry">
+            <mxRectangle width="186" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-144" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(51, 51, 51); white-space: normal; background-color: rgb(248, 249, 249); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;АБС&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-137">
+          <mxGeometry x="1122" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-156" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-88">
+          <mxGeometry y="655" width="1310" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-157" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;Команда цифровой трансформации розничного бизнеса&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-156">
+          <mxGeometry width="200" height="95" as="geometry">
+            <mxRectangle width="200" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-158" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-156">
+          <mxGeometry x="200" width="174" height="95" as="geometry">
+            <mxRectangle width="174" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-159" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-156">
+          <mxGeometry x="374" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-160" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;Интернет-банк, Сайт&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-156">
+          <mxGeometry x="562" width="186" height="95" as="geometry">
+            <mxRectangle width="186" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-161" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(254, 255, 255); text-decoration: none; float: none; display: inline !important;&quot;&gt;Интернет-банк&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-156">
+          <mxGeometry x="748" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-162" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(254, 255, 255); text-decoration: none; float: none; display: inline !important;&quot;&gt;Интернет-банк&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-156">
+          <mxGeometry x="936" width="186" height="95" as="geometry">
+            <mxRectangle width="186" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-163" value="&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(254, 255, 255);&quot;&gt;Интернет-банк, Сайт&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EkCZ1xH52uII70IHSsw4-156">
+          <mxGeometry x="1122" width="188" height="95" as="geometry">
+            <mxRectangle width="188" height="95" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkCZ1xH52uII70IHSsw4-173" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Карту текущего IT-ландшафта Банка &quot;Стандарт&quot;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="660" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s-A9TR47Kn5S1B4IiJNm" name="Схема интеграции приложений">
+    <mxGraphModel dx="1426" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-1" value="Сайт" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-3" target="s6MFsywyaP2KCRG3eHzp-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-3" value="Интернет-банк" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-5" target="s6MFsywyaP2KCRG3eHzp-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-5" value="АБС" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="950" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-6" value="Система кол-центра" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-7" value="Система партнёрского кол-центра" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-8" value="СМС-шлюз" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-9" value="Email (Manual)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-10" value="Excel files (Manual)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-11" value="Передача обращений" style="endArrow=block;endFill=1;html=1;rounded=0;align=center;verticalAlign=middle;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-6" target="s6MFsywyaP2KCRG3eHzp-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="610" as="sourcePoint" />
+            <mxPoint x="1010" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="610" />
+              <mxPoint x="740" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-12" value="Скрипты и данные" style="endArrow=block;endFill=1;html=1;rounded=0;align=center;verticalAlign=middle;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-7" target="s6MFsywyaP2KCRG3eHzp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-13" value="Уведомления" style="endArrow=block;endFill=1;html=1;rounded=0;align=center;verticalAlign=middle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-5" target="s6MFsywyaP2KCRG3eHzp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-14" value="Координация ставок (Manual)" style="endArrow=block;endFill=1;html=1;rounded=0;align=center;verticalAlign=middle;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-5" target="s6MFsywyaP2KCRG3eHzp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="510" as="sourcePoint" />
+            <mxPoint x="1150" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-15" value="Daily rates via email (Manual)" style="endArrow=block;endFill=1;html=1;rounded=0;align=center;verticalAlign=middle;dashed=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-10" target="s6MFsywyaP2KCRG3eHzp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-16" value="Клиент" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="430" y="830" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-17" value="Фронт-офис (отделения)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="370" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-18" value="Бэк-офис депозитов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="330" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-20" target="s6MFsywyaP2KCRG3eHzp-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="690" />
+              <mxPoint x="920" y="690" />
+              <mxPoint x="920" y="560" />
+              <mxPoint x="980" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-20" value="Бэк-офис кредитов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="950" y="840" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-21" value="IT-специалисты" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="790" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-22" value="Использует" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-33" target="s6MFsywyaP2KCRG3eHzp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-23" value="Использует" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-16" target="s6MFsywyaP2KCRG3eHzp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-24" value="Работает с" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-17" target="s6MFsywyaP2KCRG3eHzp-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="320" />
+              <mxPoint x="990" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-25" value="Работает с" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-33" target="s6MFsywyaP2KCRG3eHzp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-26" value="Координация (Manual)" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-17" target="s6MFsywyaP2KCRG3eHzp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="805" as="sourcePoint" />
+            <mxPoint x="1210" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-27" value="Расчет (Manual)" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;jumpStyle=arc;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-18" target="s6MFsywyaP2KCRG3eHzp-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="390" />
+              <mxPoint x="1210" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-28" value="Обработка" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-18" target="s6MFsywyaP2KCRG3eHzp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-29" value="Координация (Manual)" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-18" target="s6MFsywyaP2KCRG3eHzp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="805" as="sourcePoint" />
+            <mxPoint x="1210" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-30" value="Анализ (Manual)" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-20" target="s6MFsywyaP2KCRG3eHzp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-31" value="Поддерживает" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-21" target="s6MFsywyaP2KCRG3eHzp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-32" value="" style="endArrow=open;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s6MFsywyaP2KCRG3eHzp-16" target="s6MFsywyaP2KCRG3eHzp-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="830" as="sourcePoint" />
+            <mxPoint x="581" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6MFsywyaP2KCRG3eHzp-33" value="Оператор кол-центра" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="300" y="580" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

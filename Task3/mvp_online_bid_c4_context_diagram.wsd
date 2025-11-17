@@ -1,0 +1,34 @@
+@startuml C4_Context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title Диаграмма контекста системы для MVP подачи заявок на депозиты в банке "Стандарт"
+
+Person(client, "Клиент", "Новый или существующий клиент банка, подающий заявки на депозиты")
+Person(call_manager, "Менеджер кол-центра", "Обрабатывает входящие заявки с сайта и звонит клиентам")
+Person(back_manager, "Менеджер бэк-офиса", "Обрабатывает и подтверждает заявки на депозиты в АБС")
+
+System_Ext(telecom, "Телеком-оператор", "Внешний провайдер для СМС-уведомлений")
+
+System_Boundary(bank_boundary, "Системы банка 'Стандарт'") {
+    System(website, "Сайт", "PHP/React.js - Отображает список депозитов и принимает заявки от новых клиентов")
+    System(internet_bank, "Интернет-банк", ".NET Framework/MS SQL - Личный кабинет для существующих клиентов для подачи заявок")
+    System(call_center_sys, "Система кол-центра", "React.js/Java Spring Boot/PostgreSQL - Управляет заявками и звонками")
+    System(abs, "АБС", "Delphi/Oracle - Основная система для обработки депозитов, ставок и подтверждений")
+    System(sms_gateway, "СМС-шлюз", "Интегрированный шлюз для отправки уведомлений")
+}
+
+Rel(client, website, "Просматривает депозиты, подает заявку (HTTPS, шифрованный)")
+Rel(website, call_center_sys, "Отправляет данные заявки (защищенная интеграция)")
+Rel(call_manager, call_center_sys, "Просматривает и обрабатывает заявку")
+Rel(call_manager, client, "Звонит клиенту с условиями")
+
+Rel(client, internet_bank, "Просматривает персонализированные депозиты, подает заявку (HTTPS, шифрованный)")
+Rel(internet_bank, abs, "Отправляет заявку (асинхронно, напр. через очередь для избежания перегрузки)")
+Rel(back_manager, abs, "Подтверждает условия и открывает депозит")
+Rel(abs, sms_gateway, "Запускает СМС-уведомления")
+Rel(sms_gateway, telecom, "Маршрутизирует СМС")
+Rel(sms_gateway, client, "Получает СМС-подтверждения")
+
+
+
+@enduml

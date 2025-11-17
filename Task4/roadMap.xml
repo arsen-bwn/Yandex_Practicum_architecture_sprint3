@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="29.0.2">
+  <diagram id="RoadMap" name="RoadMap MVP и целевое решение">
+    <mxGraphModel dx="1426" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="timeline" value="Q2 (6 месяцев - MVP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="60" y="30" width="820" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline_year" value="Q3-Q4 (Год - Целевое)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="900" y="30" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="system1" value="АБС" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe4b5;strokeColor=#000000;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="80" width="1360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NFK9nF5gvCX8PAPvx-ep-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t1" target="t3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" value="T1 - Миграция ставок из XLS в БД" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc0cb;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="T2 - Интеграция с кол-центром банка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc0cb;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="470" y="120" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" value="T3 - SFTP для партнера" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc0cb;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="800" y="120" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t5" value="T4 - Полная автоматизация расчета ставок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc0cb;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="system2" value="Кол-центр банка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe4b5;strokeColor=#000000;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="220" width="1360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" value="T5 - Расширение для приема ставок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd700;strokeColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="680" y="260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t7" value="T6 - Обновление интерфейса для ставок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd700;strokeColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="950" y="260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8" value="T7 - Мониторинг нагрузки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd700;strokeColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="system3" value="Партнерский кол-центр" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe4b5;strokeColor=#000000;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="340" width="1370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t9" value="T8 - Настройка SFTP для файлов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90ee90;strokeColor=#008000;" parent="1" vertex="1">
+          <mxGeometry x="950" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t10" value="T9 - Импорт ставок в систему" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90ee90;strokeColor=#008000;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" style="endArrow=block;endFill=1;" parent="1" source="t3" target="t4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" style="endArrow=block;endFill=1;" parent="1" source="t4" target="t5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="t3" target="t6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6" style="endArrow=block;endFill=1;" parent="1" source="t6" target="t7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7" style="endArrow=block;endFill=1;" parent="1" source="t7" target="t8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow8" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="t4" target="t9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow9" style="endArrow=block;endFill=1;" parent="1" source="t9" target="t10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
